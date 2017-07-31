@@ -56,7 +56,7 @@
   ],
   "license": "MIT",
   "main": "app/index.js",
-  "name": "generator-lb1",
+  "name": "lb1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/strongloop/generator-lb1.git"
@@ -66,5 +66,5 @@
     "posttest": "npm run lint",
     "test": "mocha"
   },
-  "version": "4.0.1"
+  "version": "1.0.4"
 }
