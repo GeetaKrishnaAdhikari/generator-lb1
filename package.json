@@ -59,7 +59,7 @@
   "name": "generator-lb1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strongloop/generator-lb1.git"
+    "url": "git+https://github.com/generator-lb1.git"
   },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
