@@ -32,7 +32,7 @@
     "yeoman-generator": "^0.23.1"
   },
   "deprecated": false,
-  "description": "Copy of Yeoman generator for LoopBack, made few changes",
+  "description": "Copy of Yeoman generator for LoopBack, made few changes. For fun",
   "devDependencies": {
     "bluebird": "^3.1.1",
     "chai": "^3.2.0",
@@ -56,7 +56,7 @@
   ],
   "license": "MIT",
   "main": "app/index.js",
-  "name": "lb1",
+  "name": "generator-lb1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/strongloop/generator-lb1.git"
