@@ -32,7 +32,7 @@
     "yeoman-generator": "^0.23.1"
   },
   "deprecated": false,
-  "description": "Yeoman generator for LoopBack",
+  "description": "Copy of Yeoman generator for LoopBack, made few changes",
   "devDependencies": {
     "bluebird": "^3.1.1",
     "chai": "^3.2.0",
@@ -66,5 +66,5 @@
     "posttest": "npm run lint",
     "test": "mocha"
   },
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
