@@ -10,7 +10,7 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 var inflection = require('inflection');
 
-var workspace = require('loopback-workspace');
+var workspace = require('loopback-workspace-geet');
 var ModelRelation = workspace.models.ModelRelation;
 
 var actions = require('../lib/actions');

@@ -18,7 +18,7 @@ var validateRequiredName = helpers.validateRequiredName;
 var validateOptionalName = helpers.validateOptionalName;
 var validateRemoteMethodName = helpers.validateRemoteMethodName;
 var typeChoices = helpers.getTypeChoices();
-var ModelDefinition = require('loopback-workspace').models.ModelDefinition;
+var ModelDefinition = require('loopback-workspace-geet').models.ModelDefinition;
 
 module.exports = yeoman.Base.extend({
   // This generator does not track file changes via yeoman,

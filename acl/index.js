@@ -9,7 +9,7 @@ var g = require('../lib/globalize');
 var yeoman = require('yeoman-generator');
 var async = require('async');
 
-var wsModels = require('loopback-workspace').models;
+var wsModels = require('loopback-workspace-geet').models;
 var ModelAccessControl = wsModels.ModelAccessControl;
 
 var actions = require('../lib/actions');

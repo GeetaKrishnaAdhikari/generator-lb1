@@ -18,7 +18,7 @@ var helpText = require('../lib/help');
 
 var fs = require('fs');
 var async = require('async');
-var workspace = require('loopback-workspace');
+var workspace = require('loopback-workspace-geet');
 var wsModels = workspace.models;
 
 // A list of flags to control whether a model should be generated

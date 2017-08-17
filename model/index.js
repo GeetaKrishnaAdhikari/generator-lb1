@@ -9,7 +9,7 @@ var path = require('path');
 var g = require('../lib/globalize');
 var chalk = require('chalk');
 var yeoman = require('yeoman-generator');
-var wsModels = require('loopback-workspace').models;
+var wsModels = require('loopback-workspace-geet').models;
 
 var actions = require('../lib/actions');
 var helpers = require('../lib/helpers');

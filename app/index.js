@@ -9,7 +9,7 @@ var path = require('path');
 var g = require('../lib/globalize');
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
-var workspace = require('loopback-workspace');
+var workspace = require('loopback-workspace-geet');
 var Workspace = workspace.models.Workspace;
 var bluemix = require('../bluemix/helpers');
 var fs = require('fs');
@@ -215,6 +215,7 @@ module.exports = yeoman.Base.extend({
   },
 
   project: function() {
+	  this.log(g.f(this.wsTemplate));
     var done = this.async();
 
     Workspace.createFromTemplate(
@@ -260,7 +261,7 @@ module.exports = yeoman.Base.extend({
     printNextSteps: function() {
       if (!this.options.initBluemix) {
         if (this.options.skipNextSteps) return;
-
+		
         var cmd = helpers.getCommandName();
         if (!this._skipInstall) {
           this.log();
@@ -282,12 +283,12 @@ module.exports = yeoman.Base.extend({
         } else {
           this.log(g.f('  Create a model in your app'));
           if (cmd === 'loopback-cli')
-            this.log(chalk.green('    $ lb model'));
-          else
+            this.log(chalk.green('    $ lb1 model'));
+		          else
             this.log(chalk.green('    $ ' + cmd + ' loopback:model'));
           this.log();
           this.log(g.f('  Run the app'));
-          this.log(chalk.green('    $ node .'));
+          this.log(chalk.green('    $ lb1 start'));
           this.log();
         }
       }

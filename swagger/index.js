@@ -11,7 +11,7 @@ var chalk = require('chalk');
 var yeoman = require('yeoman-generator');
 var loadSwaggerSpecs = require('./spec-loader');
 
-var workspace = require('loopback-workspace');
+var workspace = require('loopback-workspace-geet');
 var wsModels = workspace.models;
 
 var actions = require('../lib/actions');
