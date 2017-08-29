@@ -15,7 +15,7 @@ var helpText = require('../lib/help');
 var validateRequiredName = helpers.validateRequiredName;
 var checkPropertyName = helpers.checkPropertyName;
 var typeChoices = helpers.getTypeChoices();
-var debug = require('debug')('loopback:generator:property');
+var debug = require('debug')('lb1:generator:property');
 
 module.exports = yeoman.Base.extend({
   // NOTE(bajtos)
