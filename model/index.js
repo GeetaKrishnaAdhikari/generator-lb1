@@ -338,7 +338,7 @@ module.exports = yeoman.Base.extend({
         }
 
         this.invoke(
-          'loopback:property',
+          'lb1:property',
           {
             options: {
               nested: true,
